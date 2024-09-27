@@ -1,25 +1,31 @@
 import java.util.Scanner;
-
 public class PemilihanHari01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String number, dayType;
+        String dayName, dayType;
 
-        System.out.println("Input number: ");
-        int angka = sc.nextInt();
+        System.out.println("Input Day name: ");
+        dayName = sc.nextLine();
 
-        if (angka >=1 && angka <=5) {
-            System.out.println("weekday");
+        switch (dayName.toLowerCase()) {
+            case "monday":
+            case "tuesday":
+            case "wedenyday":
+            case "thursday":
+            case "friday":
+                dayType = "weekday";
+                break;
+            case "saturday":
+            case "sunday":
+                dayType = "weekend";
+                break;
+            default:
+                dayType = " invalid day name ";
+
+           
         }
-        else if(angka ==6 && angka ==7){
-            System.out.println("weekend");
-        }
-        else {
-            System.out.println("number tidak valid");
-        }
+        System.out.println(dayName + " is a " + dayType);
 
     }
-
-
 }
