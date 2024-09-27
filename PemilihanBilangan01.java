@@ -10,7 +10,7 @@ public class PemilihanBilangan01 {
         System.out.print("Masukan sebuah angka: ");
         angka = sc.nextInt();
          
-        hasil = (angka % 2 == 0) ? " termasuk bilangan positif" : "termasuk bilangan negatif";
+        hasil = (angka % 2 == 0) ? " termasuk bilangan ganjil" : "termasuk bilangan genap";
         
         
            System.out.println(angka + " adalah  " + hasil);
