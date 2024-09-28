@@ -31,7 +31,6 @@ public class Siakad01 {
 
       nilaiAkhir = (nilaiKuis * 0.20) + (nilaiTugas * 0.15) + (nilaiUjian * 0.30) + (nilaiUAS * 0.35) ; 
 
-      
   
       System.out.println("Mahasiswa degan Nama " + nama + " ( NIM " + nim + ")" +  " Kelas " + kelas + " Nomor absen " + absen); 
       System.out.println("Nilai Akhir: " + nilaiAkhir); 
