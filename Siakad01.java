@@ -20,13 +20,13 @@ public class Siakad01 {
       System.out.print("Masukan nomer absen: "); 
       absen = sc.nextByte(); 
 
-      System.out.print("Masukan nilai kuis= "); 
+      System.out.print("Masukan nilai kuis: "); 
       nilaiKuis = sc.nextDouble(); 
-      System.out.print("Masukan nilai tugas= "); 
+      System.out.print("Masukan nilai tugas: "); 
       nilaiTugas = sc.nextDouble(); 
-      System.out.print("Masukan nilai ujian= "); 
+      System.out.print("Masukan nilai ujian: "); 
       nilaiUjian = sc.nextDouble(); 
-      System.out.print("Masukan nilai UAS= "); 
+      System.out.print("Masukan nilai UAS: "); 
       nilaiUAS = sc.nextDouble(); 
 
       nilaiAkhir = (nilaiKuis * 0.20) + (nilaiTugas * 0.15) + (nilaiUjian * 0.30) + (nilaiUAS * 0.35) ; 
@@ -41,27 +41,27 @@ public class Siakad01 {
         System.out.println("nilai akhir huruf: A");
         System.out.println("kualifikasi: sangat baik");
       }
-      if (nilaiAkhir >= 73 && nilaiAkhir <=79) {
+      if (nilaiAkhir >= 73 && nilaiAkhir <=80) {
         System.out.println("nilai akhir huruf: B+");
         System.out.println("kualifikasi: lebih dari baik");
       }
-      if (nilaiAkhir >= 65 && nilaiAkhir <=72) {
+      if (nilaiAkhir >= 65 && nilaiAkhir <=73) {
         System.out.println("nilai akhir huruf: B");
         System.out.println("kualifikasi: Baik");
       }
-      if (nilaiAkhir >= 60 && nilaiAkhir <=64) {
+      if (nilaiAkhir >= 60 && nilaiAkhir <=65) {
         System.out.println("nilai akhir huruf: C+");
         System.out.println("kualifikasi: Lebih dari cukup");
       }
-      if (nilaiAkhir >= 50 && nilaiAkhir <=59) {
+      if (nilaiAkhir >= 50 && nilaiAkhir <=60) {
         System.out.println("nilai akhir huruf: C");
         System.out.println("kualifikasi: Cukup");
       }
-      if (nilaiAkhir >= 39 && nilaiAkhir <=49) {
+      if (nilaiAkhir >= 39 && nilaiAkhir <=50) {
         System.out.println("nilai akhir huruf: D");
         System.out.println("kualifikasi: Kurang");
       }
-      if ( nilaiAkhir <=38) {
+      if ( nilaiAkhir <=39) {
         System.out.println("nilai akhir huruf: E");
         System.out.println("kualifikasi: Gagal");
       }
